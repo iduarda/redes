@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';  // Ajustado para o servidor local
-$dbname = 'redesip-3';
+$host = 'db_redes3';  // Ajustado para o servidor local
+$dbname = 'redes3';
 $username = 'root';
-$password = '';
+$password = 'mypassword';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
